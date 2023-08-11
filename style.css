@@ -12,7 +12,6 @@ a:hover {
 
 #box {
   padding: 65px;
-  display: inline;
 }
 #box .minibox {
   padding-top: 25px;
@@ -24,9 +23,7 @@ a:hover {
 }
 
 #demo {
-  display: flex;
-  justify-content: flex-end;
-  padding: 30px 0 0 45px;
+  padding: 30px 0 0 65px;
 }
 #demo .minibox {
   width: 150px;
@@ -69,7 +66,7 @@ a:hover {
   padding-top: 55px;
   color: white;
   font-size: 20px;
-  transition: 3s;
+  transition: 2s;
 }
 #boxtwo .minibox:hover {
   border-radius: 20%;
@@ -83,4 +80,39 @@ a:hover {
     text-align: center;
     padding: 15px 20px 30px 10px;
   }
+}
+
+#text {
+  padding-bottom: 70px;
+}
+#text .minibox {
+  width: 230px;
+  height: 150px;
+  background-color: #425e87;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
+}
+#text .big {
+  position: absolute;
+  left: 310px;
+  border: #425e87;
+}
+#texttwo {
+  padding: 40px 0;
+}
+#texttwo .minibox {
+  width: 230px;
+  height: 150px;
+  background-color: #679838;
+  text-align: center;
+  border: 8px solid white;
+  color: white;
+  font-size: 20px;
+  padding-top: 50px;
+}
+#texttwo .big {
+  position: absolute;
+  left: 300px;
 }/*# sourceMappingURL=style.css.map */
